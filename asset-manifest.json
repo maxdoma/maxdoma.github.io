@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/maxdoma/portfolio/static/css/main.0abffbc8.css",
+    "main.js": "/maxdoma/portfolio/static/js/main.a29d116d.js",
+    "static/js/453.1407b060.chunk.js": "/maxdoma/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/profile.jpg": "/maxdoma/portfolio/static/media/profile.9a5b30e381481198c0df.jpg",
+    "index.html": "/maxdoma/portfolio/index.html",
+    "main.0abffbc8.css.map": "/maxdoma/portfolio/static/css/main.0abffbc8.css.map",
+    "main.a29d116d.js.map": "/maxdoma/portfolio/static/js/main.a29d116d.js.map",
+    "453.1407b060.chunk.js.map": "/maxdoma/portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0abffbc8.css",
+    "static/js/main.a29d116d.js"
+  ]
+}
