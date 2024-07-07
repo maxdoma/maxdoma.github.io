@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .hg-ind {
+    @apply border-indigo-600 border-dotted border-4 bg-transparent
+  }
+
+  .hl {
+    @apply border-indigo-600 border-dotted border-4 bg-transparent
+  }
+
+  .hl-ind {
+    @apply border-indigo-600 border-dotted border-4 bg-transparent
+  }
+
+  .hg-ylw {
+    @apply border-yellow-500 border-dotted border-4 bg-transparent
+  }
+
+  .hl-ylw {
+    @apply border-yellow-500 border-dotted border-4 bg-transparent
+  }
+
+  .bot-link-hovered {
+    @apply text-[#6495ed] text-1.375 rounded-2xl
+            /* :not(:first) */
+  }
+
+  .first-in-bot {
+    @apply font-normal italic text-gray-500 my-0 mr-auto ml-3
+            hover:bg-red-700
+  }
+}
+
+html.dark {
+  --tw-bg-opacity: 1;
+  background-color: rgba(31, 41, 55, var(--tw-bg-opacity));
+}
+
+html.dark .dark\:ml-6 {
+   margin-left: 1.5rem;
+}
+
+html.dark .dark\:bg-blue-500 {
+   --tw-bg-opacity: 1;
+  background-color: rgba(59, 130, 246, var(--tw-bg-opacity));
+}
